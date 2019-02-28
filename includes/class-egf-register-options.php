@@ -693,9 +693,9 @@ if ( ! class_exists( 'EGF_Register_Options' ) ) :
 				 */
 				'tt_default_body' => array(
 					'name'        => 'tt_default_body',
-					'title'       => __( 'Paragraphs', 'easy-google-fonts' ),
+					'title'       => __( 'Body', 'easy-google-fonts' ),
 					'description' => __( "Please select a font for the theme's body and paragraph text", 'easy-google-fonts' ),
-					'properties'  => array( 'selector' => apply_filters( 'tt_default_body', 'p' ) ),
+					'properties'  => array( 'selector' => apply_filters( 'tt_default_body', 'body' ) ),
 				),
 
 				'tt_default_heading_1' => array(
